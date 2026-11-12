@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Workshop | Cyber-Chamber Sector 02</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="cyber-canvas"></canvas>
+
+  <!-- STRICTLY NO HEADER, NO FOOTER, NO NAVBAR -->
+  <main class="sector-wrapper">
+
+    <!-- Unconventional Return Gate -->
+    <a href="index.html" class="cockpit-eject-beacon">
+      <span>&larr; RETURN TO COMMAND DECK</span>
+    </a>
+
+    <!-- Sector Hero Banner -->
+    <section class="sector-hero-hud">
+      <span class="sector-code-tag">SYSTEM LAB // SECTOR 02</span>
+      <h1 class="sector-title">The Workshop: Project Chamber</h1>
+      <p class="sector-subtext">
+        A gallery of active computational prototypes, game engines, and web architectures engineered with clean logic and zero bloat.
+      </p>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="content-cyber-grid">
+
+      <!-- Project 1: Stickman Fighter Game -->
+      <article class="cyber-card">
+        <span class="card-status-badge badge-pink">PYTHON &bull; PYGAME</span>
+        <h2 class="cyber-card-title">Stickman Fighter 2D</h2>
+        <p class="cyber-card-body">
+          An arcade-style 2D fighting game featuring procedural stickman vector animations, smart 3-tier AI opponents, dynamic power-up drops, and zero external image/sound assets. Includes unit testing with pytest.
+        </p>
+        <div class="tech-tag-row">
+          <span class="tech-pill">Vector Physics</span>
+          <span class="tech-pill">Automated AI</span>
+          <span class="tech-pill">Pytest Tested</span>
+        </div>
+      </article>
+
+      <!-- Project 2: Homework 7 Static Web Architecture -->
+      <article class="cyber-card">
+        <span class="card-status-badge badge-gold">WEB // SESSION 10</span>
+        <h2 class="cyber-card-title">Homework 7 Web Application</h2>
+        <p class="cyber-card-body">
+          A dedicated interactive static web interface hosted on GitHub Pages demonstrating semantic document architecture, fluid CSS responsive layouts, and clean user interaction models.
+        </p>
+        <div class="tech-tag-row">
+          <span class="tech-pill">HTML5</span>
+          <span class="tech-pill">CSS3 Flex/Grid</span>
+          <span class="tech-pill">GitHub Pages</span>
+        </div>
+      </article>
+
+      <!-- Project 3: Cyber-Chamber Unconventional Portfolio -->
+      <article class="cyber-card">
+        <span class="card-status-badge badge-cyan">PORTFOLIO // HOMEWORK 8</span>
+        <h2 class="cyber-card-title">The Cyber-Chamber HUD</h2>
+        <p class="cyber-card-body">
+          An unconventional portfolio breaking away from headers, footers, and traditional menus. Features custom procedural audio synthesis via Web Audio API, responsive particle canvas, and modular cockpit navigation.
+        </p>
+        <div class="tech-tag-row">
+          <span class="tech-pill">Canvas Particles</span>
+          <span class="tech-pill">Web Audio API</span>
+          <span class="tech-pill">Keyframe FX</span>
+        </div>
+      </article>
+
+      <!-- Project 4: Interactive Math & Geometry Visualizer -->
+      <article class="cyber-card">
+        <span class="card-status-badge badge-green">COMPUTATIONAL MATH</span>
+        <h2 class="cyber-card-title">Coordinate &amp; Trigonometric Engine</h2>
+        <p class="cyber-card-body">
+          Algorithmic routines calculating trigonometric solutions, circle equations, coordinate intersections, and circular measure transformations rendered programmatically.
+        </p>
+        <div class="tech-tag-row">
+          <span class="tech-pill">Algorithms</span>
+          <span class="tech-pill">Coordinate Geometry</span>
+          <span class="tech-pill">Python Logic</span>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Inter-Sector Warp Nexus -->
+    <section class="inter-sector-nexus">
+      <div class="nexus-label">&bull; QUICK-WARP TO ADJACENT STATIONS &bull;</div>
+      <div class="nexus-jump-links">
+        <a href="lore.html" class="nexus-jump-pill">🧭 Operator Lore (Identity) &rarr;</a>
+        <a href="achievements.html" class="nexus-jump-pill">🏆 Trophy Vault (Achievements) &rarr;</a>
+        <a href="aspirations.html" class="nexus-jump-pill">🔮 Future Forge (Aspirations) &rarr;</a>
+      </div>
+    </section>
+
+  </main>
+
+  <button id="audio-toggle-btn" class="cockpit-audio-toggle" title="Toggle Cockpit SFX">
+    🔈 SFX: MUTED
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

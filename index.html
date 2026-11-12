@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber-Chamber Portfolio | Unconventional Portfolio</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Dynamic Particle Canvas Background (Requirement 6: Animations) -->
+  <canvas id="cyber-canvas"></canvas>
+
+  <!-- IMPORTANT: NO HEADER, NO FOOTER, NO NAVIGATION BAR (Requirement 4) -->
+  <main class="cockpit-viewport">
+
+    <!-- ====================================================================
+         SECTION 1: PILOT BIOMETRIC CORE
+         Requirement 3: Image of yourself, placed as a meaningful part of the design
+         ==================================================================== -->
+    <section class="pilot-core-station">
+      <div class="biometric-chamber">
+        <!-- Animated Orbiting Rings (Requirement 6) -->
+        <div class="chamber-ring-outer"></div>
+        <div class="chamber-ring-inner"></div>
+
+        <!-- Pilot Photo Frame: Replace 'images/avatar-default.svg' with your own 'images/profile.jpg' anytime! -->
+        <div class="pilot-photo-frame">
+          <img src="images/avatar-default.svg" alt="Creator Portrait" class="pilot-photo" id="pilot-img">
+        </div>
+      </div>
+
+      <div class="pilot-tag">⚡ SYSTEM OPERATOR &bull; CS CRP SESSIONS 10 & 11</div>
+      <h1 class="pilot-callsign">Shafin's Cyber-Chamber</h1>
+      <p class="pilot-role">Creative Technologist &bull; Software Builder &bull; Computational Explorer</p>
+
+      <!-- Live Telemetry Status Bar -->
+      <div class="telemetry-strip">
+        <div class="telemetry-pill">SYSTEM: <span>ONLINE</span></div>
+        <div class="telemetry-pill">CORE: <span>HYPER-DRIVE</span></div>
+        <div class="telemetry-pill">LATENCY: <span id="telemetry-ping">24ms</span></div>
+        <div class="telemetry-pill">SECURITY: <span>QUANTUM-SEALED</span></div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 2: CONCEPT LOGBOOK (REQUIREMENT 10)
+         "Two or three sentences explaining your concept and why it is unconventional"
+         ==================================================================== -->
+    <section class="concept-terminal-log">
+      <div class="terminal-header">
+        <div class="terminal-blink-dot"></div>
+        <span class="terminal-title">TERMINAL LOG: UNCONVENTIONAL ARCHITECTURE</span>
+      </div>
+      <p class="concept-text">
+        This portfolio completely discards standard website conventions—eliminating traditional headers, footers, and menu bars in favor of an interactive sci-fi command deck. Visitors do not navigate through flat link lists; instead, they engage physical modular reactor pods and biometric portals to traverse distinct digital sectors. Every sector is an explorable station linked directly to the operator's central identity core.
+      </p>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 3: UNCONVENTIONAL NAVIGATION CONSOLE (REQUIREMENT 5)
+         "Visitors must move between pages in a way that is not a menu or link list"
+         Each module is an interactive apparatus card linking to a unique sector page!
+         ==================================================================== -->
+    <div class="navigation-matrix-heading">
+      <span>Command Consoles &bull; Select Station to Engage</span>
+    </div>
+
+    <section class="console-deck-grid">
+
+      <!-- Station 1: Operator Lore & Identity -->
+      <a href="lore.html" class="console-module-pod theme-cyan">
+        <div class="module-icon-wrap">🧭</div>
+        <span class="module-badge">SECTOR 01 // IDENTITY</span>
+        <h2 class="module-title">Operator Lore</h2>
+        <p class="module-desc">Discover the background story, personal values, and technical skills driving the cyber-deck.</p>
+        <div class="module-engage-bar">
+          <span>ENGAGE SECTOR</span>
+          <span class="engage-arrow">&rarr;</span>
+        </div>
+      </a>
+
+      <!-- Station 2: The Workshop (Projects) -->
+      <a href="projects.html" class="console-module-pod theme-pink">
+        <div class="module-icon-wrap">⚡</div>
+        <span class="module-badge">SECTOR 02 // LAB</span>
+        <h2 class="module-title">The Workshop</h2>
+        <p class="module-desc">Inspect code repositories, fighting games, and procedural digital prototypes created by the operator.</p>
+        <div class="module-engage-bar">
+          <span>INITIALIZE LAB</span>
+          <span class="engage-arrow">&rarr;</span>
+        </div>
+      </a>
+
+      <!-- Station 3: Trophy Vault (BONUS REQUIREMENT 1) -->
+      <a href="achievements.html" class="console-module-pod theme-gold">
+        <div class="module-icon-wrap">🏆</div>
+        <span class="module-badge">SECTOR 03 // VAULT</span>
+        <h2 class="module-title">Trophy Vault</h2>
+        <p class="module-desc">Personal life achievements, scholastic honors, sports milestones, and proud breakthroughs.</p>
+        <div class="module-engage-bar">
+          <span>UNLOCK VAULT</span>
+          <span class="engage-arrow">&rarr;</span>
+        </div>
+      </a>
+
+      <!-- Station 4: Future Forge (BONUS REQUIREMENT 2) -->
+      <a href="aspirations.html" class="console-module-pod theme-green">
+        <div class="module-icon-wrap">🔮</div>
+        <span class="module-badge">SECTOR 04 // FORGE</span>
+        <h2 class="module-title">Future Forge</h2>
+        <p class="module-desc">Dedicated blueprint of upcoming ambitions, things I want to build, and creative software visions.</p>
+        <div class="module-engage-bar">
+          <span>ACTIVATE FORGE</span>
+          <span class="engage-arrow">&rarr;</span>
+        </div>
+      </a>
+
+    </section>
+
+    <!-- ====================================================================
+         SECTION 4: WARP GATE TO HOMEWORK 7 (REQUIREMENT 8)
+         "A link (href) to your Homework 7 website (your hosted Homework 6 page)"
+         ==================================================================== -->
+    <section class="warp-portal-container">
+      <!-- 
+        TEACHER REQUIREMENT: A link (href) to your Homework 7 website (hosted Homework 6 page).
+        You can replace the href below with your exact live Homework 7 GitHub Pages link.
+      -->
+      <a href="../Homework_7/" target="_blank" rel="noopener noreferrer" class="warp-portal-card">
+        <div class="warp-portal-inner">
+          <div class="warp-info">
+            <span class="warp-tag">DIMENSIONAL RELAY // EXTERNAL PORTAL</span>
+            <h2 class="warp-heading">Warp Conduit &rarr; Homework 7 Archive</h2>
+            <p class="warp-desc">Transmit through the sub-space relay to view my previously hosted Homework 7 project.</p>
+          </div>
+          <div class="warp-teleport-dial">
+            <span>ENTER WARP</span>
+            <span>&bull;&bull;&bull;</span>
+          </div>
+        </div>
+      </a>
+    </section>
+
+  </main>
+
+  <!-- Interactive SFX Audio Toggle Button -->
+  <button id="audio-toggle-btn" class="cockpit-audio-toggle" title="Toggle Cockpit SFX">
+    🔈 SFX: MUTED
+  </button>
+
+  <!-- Core Interactive Script -->
+  <script src="script.js"></script>
+</body>
+</html>

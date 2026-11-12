@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operator Lore | Cyber-Chamber Sector 01</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Particle Canvas Overlay -->
+  <canvas id="cyber-canvas"></canvas>
+
+  <!-- STRICTLY NO HEADER, NO FOOTER, NO NAVBAR -->
+  <main class="sector-wrapper">
+
+    <!-- Unconventional Return Gate (Physical Cockpit Eject Beacon) -->
+    <a href="index.html" class="cockpit-eject-beacon">
+      <span>&larr; RETURN TO COMMAND DECK</span>
+    </a>
+
+    <!-- Sector Hero Banner -->
+    <section class="sector-hero-hud">
+      <span class="sector-code-tag">SYSTEM LOG // SECTOR 01</span>
+      <h1 class="sector-title">Operator Lore &amp; Identity</h1>
+      <p class="sector-subtext">
+        Decrypted biographical records, core principles, and the origin story behind the developer behind the terminal.
+      </p>
+    </section>
+
+    <!-- Bio & Skill Cards Grid -->
+    <section class="content-cyber-grid">
+
+      <!-- Card 1: Origin Story -->
+      <article class="cyber-card">
+        <span class="card-status-badge badge-pink">ORIGIN POINT</span>
+        <h2 class="cyber-card-title">Curiosity Ignited</h2>
+        <p class="cyber-card-body">
+          My voyage into computer science began with an obsession for deconstructing how software breathes. From writing my first terminal scripts to engineering interactive games and responsive web experiments, every line of code is an exploration into logic and creativity.
+        </p>
+        <div class="tech-tag-row">
+          <span class="tech-pill">Problem Solving</span>
+          <span class="tech-pill">Design Thinking</span>
+          <span class="tech-pill">CS CRP</span>
+        </div>
+      </article>
+
+      <!-- Card 2: Skill Set -->
+      <article class="cyber-card">
+        <span class="card-status-badge badge-cyan">ARSENAL</span>
+        <h2 class="cyber-card-title">Technical Competencies</h2>
+        <p class="cyber-card-body">
+          Equipped with foundational software engineering capabilities across procedural scripting, object-oriented concepts, vector game dynamics, and modern static web craftsmanship using semantic HTML5, expressive CSS3, and reactive JavaScript.
+        </p>
+        <div class="tech-tag-row">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">Pygame</span>
+          <span class="tech-pill">HTML5</span>
+          <span class="tech-pill">CSS3</span>
+          <span class="tech-pill">JavaScript</span>
+        </div>
+      </article>
+
+      <!-- Card 3: Philosophy -->
+      <article class="cyber-card">
+        <span class="card-status-badge badge-green">CORE DIRECTIVE</span>
+        <h2 class="cyber-card-title">Engineering Philosophy</h2>
+        <p class="cyber-card-body">
+          I believe software should be expressive, engaging, and memorable. Rather than settling for cookie-cutter blueprints, I strive to invent intuitive mechanics, unconventional user journeys, and clean codebases that communicate intent effortlessly.
+        </p>
+        <div class="tech-tag-row">
+          <span class="tech-pill">Unconventional UX</span>
+          <span class="tech-pill">Code Clarity</span>
+          <span class="tech-pill">Innovation</span>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Inter-Sector Warp Nexus: Move between pages unconventional style -->
+    <section class="inter-sector-nexus">
+      <div class="nexus-label">&bull; QUICK-WARP TO ADJACENT STATIONS &bull;</div>
+      <div class="nexus-jump-links">
+        <a href="projects.html" class="nexus-jump-pill">⚡ The Workshop (Projects) &rarr;</a>
+        <a href="achievements.html" class="nexus-jump-pill">🏆 Trophy Vault (Achievements) &rarr;</a>
+        <a href="aspirations.html" class="nexus-jump-pill">🔮 Future Forge (Aspirations) &rarr;</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive SFX Audio Toggle Button -->
+  <button id="audio-toggle-btn" class="cockpit-audio-toggle" title="Toggle Cockpit SFX">
+    🔈 SFX: MUTED
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
